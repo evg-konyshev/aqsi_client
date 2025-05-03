@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "a-qsi-api-v3-client"
+name = "aqsi_client"
 version = "v3"
 description = "A client library for accessing aQsi API V3"
 authors = []
 readme = "README.md"
 packages = [
-    {include = "a_qsi_api_v3_client"},
+    {include = "aqsi_client"},
 ]
 include = ["CHANGELOG.md", "a_qsi_api_v3_client/py.typed"]
 
