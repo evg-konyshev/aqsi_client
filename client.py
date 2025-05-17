@@ -8,6 +8,7 @@ class RequestMethods(str, Enum):
     GET = "GET"
     POST = "POST"
 
+
 class AqsiClient:
 
     token_prefix: str = "Bearer "

@@ -5,7 +5,7 @@ from client import AqsiClient, RequestMethods
 from api.v3.schemas.request.goods import GoodCreateRequestSchema
 
 
-class GoodsApi:
+class Goods:
 
     def __init__(self, client: AqsiClient):
         self._client = client
