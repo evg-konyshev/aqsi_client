@@ -1,12 +1,7 @@
-from enum import Enum
+from enums import RequestMethods
 from typing import Any
 
 from httpx import Client, Response
-
-
-class RequestMethods(str, Enum):
-    GET = "GET"
-    POST = "POST"
 
 
 class AqsiClient:

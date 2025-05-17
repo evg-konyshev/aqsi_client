@@ -1,6 +1,7 @@
 from httpx import Response
 
-from client import AqsiClient, RequestMethods
+from client import AqsiClient
+from enums import RequestMethods
 
 from api.v3.schemas.request.goods import GoodCreateRequestSchema
 
